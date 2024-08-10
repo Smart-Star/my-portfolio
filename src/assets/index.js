@@ -6,7 +6,9 @@ import bank from './hoo-bank.jpg';
 import manage from './manage.jpg';
 import nike from './nike-website.jpg';
 import noko from './noko-social.jpg';
+import headphone from './headphone-store.jpg';
 import profilePic from './profpic.png';
+
 import cv from './OJUTALAYO FOLUSO OLUKAYODE CV.pdf';
 
-export { coffee, foodie, gericht, gpt, bank, manage, nike, noko, profilePic, cv };
+export { coffee, foodie, gericht, gpt, bank, manage, nike, noko, headphone, profilePic, cv };

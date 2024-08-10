@@ -7,7 +7,7 @@ import {
   DiReact,
 } from 'react-icons/di';
 import { SiTailwindcss } from 'react-icons/si';
-import { bank, coffee, foodie, gericht, gpt, manage, nike } from '../assets';
+import { bank, coffee, foodie, gericht, gpt, headphone, manage, nike } from '../assets';
 
 export const navLinks = [
   { id: 1, href: 'skills', label: 'About' },
@@ -188,6 +188,17 @@ export const projects = [
     links: {
       site: 'https://ge-restaurant.netlify.app/',
       github: 'https://github.com/Smart-Star/gericht-restaurant',
+    },
+  },
+
+  {
+    id: 8,
+    img: headphone,
+    title: 'Project #8',
+    description: 'Fully Responsive Modern eCommerce website using React Js and TailwindCSS',
+    links: {
+      site: 'https://store-headphone.netlify.app',
+      github: 'https://github.com/Smart-Star/headphone-ecommerce',
     },
   },
 ];
