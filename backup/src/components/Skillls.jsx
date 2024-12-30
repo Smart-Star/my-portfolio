@@ -14,11 +14,7 @@ export const Skillls = () => {
       <h3 className="text-3xl font-bold text-center mb-8">Skillls</h3>
       <p className="text-center mb-8">
         I worked on various frontend projects. Check them{' '}
-        <a
-          target="_blank"
-          href="https://github.com/Smart-Star?tab=repositories"
-          className="underline text-purple-600"
-        >
+        <a href="#/" className="underline text-purple-600">
           here.
         </a>
       </p>

@@ -7,24 +7,8 @@ import manage from './manage.jpg';
 import nike from './nike-website.jpg';
 import noko from './noko-social.jpg';
 import headphone from './headphone-store.jpg';
-import hulu from './hu-movie.jpg';
-import disney from './dis-movie.jpg';
 import profilePic from './profpic.png';
 
-import cv from './Foluso-Ojutalayo-Front-End-CV.pdf';
+import cv from './OJUTALAYO FOLUSO OLUKAYODE CV.pdf';
 
-export {
-  coffee,
-  foodie,
-  gericht,
-  gpt,
-  bank,
-  manage,
-  nike,
-  noko,
-  headphone,
-  profilePic,
-  cv,
-  hulu,
-  disney,
-};
+export { coffee, foodie, gericht, gpt, bank, manage, nike, noko, headphone, profilePic, cv };

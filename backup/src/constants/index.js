@@ -1,19 +1,13 @@
-import { DiBootstrap, DiCss3, DiGithubBadge, DiHtml5, DiReact } from 'react-icons/di';
-import { SiTailwindcss } from 'react-icons/si';
-import { BiLogoTypescript } from 'react-icons/bi';
-import { RiJavascriptFill } from 'react-icons/ri';
 import {
-  bank,
-  coffee,
-  disney,
-  foodie,
-  gericht,
-  gpt,
-  headphone,
-  hulu,
-  manage,
-  nike,
-} from '../assets';
+  DiBootstrap,
+  DiCss3,
+  DiGithubBadge,
+  DiHtml5,
+  DiJavascript1,
+  DiReact,
+} from 'react-icons/di';
+import { SiTailwindcss } from 'react-icons/si';
+import { bank, coffee, foodie, gericht, gpt, headphone, manage, nike } from '../assets';
 
 export const navLinks = [
   { id: 1, href: 'skills', label: 'About' },
@@ -31,31 +25,25 @@ export const techStack = [
   {
     name: 'CSS',
     Icon: DiCss3,
-    className: 'text-purple-600',
+    className: 'text-blue-600',
   },
 
   {
     name: 'JavaScript',
-    Icon: RiJavascriptFill,
-    className: 'text-yellow-400',
-  },
-
-  {
-    name: 'TypeScript',
-    Icon: BiLogoTypescript,
-    className: 'text-blue-500',
-  },
-
-  {
-    name: 'React Js',
-    Icon: DiReact,
-    className: 'text-blue-500',
+    Icon: DiJavascript1,
+    className: 'text-yellow-500',
   },
 
   {
     name: 'Bootstrap',
     Icon: DiBootstrap,
     className: 'text-indigo-500',
+  },
+
+  {
+    name: 'React Js',
+    Icon: DiReact,
+    className: 'text-blue-500',
   },
 
   {
@@ -78,37 +66,25 @@ export const skills = [
       {
         name: 'CSS',
         Icon: DiCss3,
-        className: 'text-purple-600',
+        className: 'text-blue-600',
       },
 
       {
         name: 'JavaScript',
-        Icon: RiJavascriptFill,
+        Icon: DiJavascript1,
         className: 'text-yellow-500',
-      },
-
-      {
-        name: 'TypeScript',
-        Icon: BiLogoTypescript,
-        className: 'text-blue-500',
-      },
-
-      {
-        name: 'React Js',
-        Icon: DiReact,
-        className: 'text-blue-500',
-      },
-
-      {
-        name: 'GitHub',
-        Icon: DiGithubBadge,
-        className: 'text-gray-400',
       },
 
       {
         name: 'Bootstrap',
         Icon: DiBootstrap,
         className: 'text-indigo-500',
+      },
+
+      {
+        name: 'React Js',
+        Icon: DiReact,
+        className: 'text-blue-500',
       },
 
       {
@@ -223,28 +199,6 @@ export const projects = [
     links: {
       site: 'https://store-headphone.netlify.app',
       github: 'https://github.com/Smart-Star/headphone-ecommerce',
-    },
-  },
-
-  {
-    id: 9,
-    img: hulu,
-    title: 'Project #9',
-    description: 'Fully Responsive Hulu website clone using React Js, TypeScript and TailwindCSS',
-    links: {
-      site: 'https://hu-movie.netlify.app',
-      github: 'https://github.com/Smart-Star/hulu-clone',
-    },
-  },
-
-  {
-    id: 10,
-    img: disney,
-    title: 'Project #10',
-    description: 'Fully Responsive Disney website clone using React Js, TypeScript and TailwindCSS',
-    links: {
-      site: 'https://dis-movie.netlify.app',
-      github: 'https://github.com/Smart-Star/disney-clone',
     },
   },
 ];

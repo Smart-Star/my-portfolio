@@ -5,7 +5,8 @@ import { ShinyEffect } from './ShinyEffect';
 
 // viewport={{ once: true }}
 export const Portfolio = () => {
-  // console.log(projects.length);
+  const a = projects;
+  console.log(a.length);
 
   return (
     <section id="portfolio" className="box-width paddingX paddingY relative">
@@ -19,7 +20,7 @@ export const Portfolio = () => {
           key={item.id}
           className={`flex flex-col lg:flex-row gap-8 border border-purple-900 bg-purple-900/20 rounded-lg shadow-lg p-10
           ${item.id % 2 === 0 && 'lg:flex-row-reverse'}
-           ${item.id === projects.length ? `mb-0` : `mb-12`}
+           ${item.id === 8 ? `mb-0` : `mb-12`}
           `}
         >
           <motion.div
