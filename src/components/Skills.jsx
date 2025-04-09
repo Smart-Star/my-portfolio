@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { skills } from '../constants';
 
-export const Skillls = () => {
+export const Skills = () => {
   return (
     <motion.section
       initial={{ opacity: 0, x: -50 }}
@@ -11,7 +11,7 @@ export const Skillls = () => {
       id="skills"
       className="box-width paddingX paddingY flex flex-col justify-center items-center text-gray-200"
     >
-      <h3 className="text-3xl font-bold text-center mb-8">Skillls</h3>
+      <h3 className="text-3xl font-bold text-center mb-8">Skills</h3>
       <p className="text-center mb-8">
         I worked on various frontend projects. Check them{' '}
         <a

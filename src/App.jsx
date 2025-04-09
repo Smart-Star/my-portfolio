@@ -5,7 +5,7 @@ import {
   Hero,
   Navbar,
   Portfolio,
-  Skillls,
+  Skills,
   TechStack,
 } from './components';
 
@@ -15,7 +15,7 @@ export default function App() {
       <Navbar />
       <Hero />
       <TechStack />
-      <Skillls />
+      <Skills />
       <Portfolio />
       <Experience />
       <Contact />

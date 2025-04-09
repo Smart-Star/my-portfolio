@@ -1,7 +1,7 @@
 import { DiBootstrap, DiCss3, DiGithubBadge, DiHtml5, DiReact } from 'react-icons/di';
 import { SiTailwindcss } from 'react-icons/si';
 import { BiLogoTypescript } from 'react-icons/bi';
-import { RiJavascriptFill } from 'react-icons/ri';
+import { RiJavascriptFill, RiNextjsFill } from 'react-icons/ri';
 import {
   bank,
   coffee,
@@ -53,6 +53,12 @@ export const techStack = [
   },
 
   {
+    name: 'Next Js',
+    Icon: RiNextjsFill,
+    className: 'text-neutral-300/80',
+  },
+
+  {
     name: 'Bootstrap',
     Icon: DiBootstrap,
     className: 'text-indigo-500',
@@ -100,6 +106,12 @@ export const skills = [
       },
 
       {
+        name: 'Next Js',
+        Icon: RiNextjsFill,
+        className: 'text-neutral-300/80',
+      },
+
+      {
         name: 'GitHub',
         Icon: DiGithubBadge,
         className: 'text-gray-400',
@@ -126,6 +138,12 @@ export const skills = [
         name: 'React Js',
         Icon: DiReact,
         className: 'text-blue-500',
+      },
+
+      {
+        name: 'Next Js',
+        Icon: RiNextjsFill,
+        className: 'text-neutral-300/80',
       },
 
       {

@@ -40,7 +40,7 @@ export const Hero = () => {
             transition={{ duration: 1, delay: 1 }}
             className="text-gray-300 max-w-[400px] md:max-w-[520px] md:text-xl text-lg mb-6"
           >
-            I am a passionate frontend developer and a UI designer with one year experiece.
+            I am a passionate frontend developer and a UI designer with over one year experience.
           </motion.p>
 
           <motion.div
