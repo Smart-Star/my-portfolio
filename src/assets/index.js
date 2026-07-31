@@ -10,6 +10,11 @@ import headphone from './headphone-store.jpg';
 import hulu from './hu-movie.jpg';
 import disney from './dis-movie.jpg';
 import profilePic from './profpic.png';
+import blogApp from './bllog-app.png';
+import carepulse from './carepulse.png';
+import dentwise from './dentwise.png';
+import cvOracle from './cv_oracle.png';
+import maternalCare from './maternal_care.png';
 
 import cv from './Foluso-Ojutalayo-Front-End-CV.pdf';
 
@@ -27,4 +32,9 @@ export {
   cv,
   hulu,
   disney,
+  blogApp,
+  carepulse,
+  dentwise,
+  cvOracle,
+  maternalCare,
 };

@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { AiOutlineBehanceSquare, AiOutlineGithub, AiOutlineLinkedin } from 'react-icons/ai';
 import { cv, profilePic } from '../assets';
 import { ShinyEffect } from './ShinyEffect';
+import { socialLinks } from '../constants';
 
 export const Hero = () => {
   return (
@@ -16,7 +17,20 @@ export const Hero = () => {
           className="flex flex-col items-center text-center lg:items-start lg:text-left"
         >
           <TypeAnimation
-            sequence={['Frontend Developer', 1000, 'Web Designer', 1000, 'Consultant', 1000]}
+            sequence={[
+              'Frontend Developer',
+              1000,
+              'Backend Developer',
+              1000,
+              'Workflow Automation',
+              1000,
+              'Web Designer',
+              1000,
+              'Full-stack Developer',
+              1000,
+              'UI/UX Designer',
+              1000,
+            ]}
             speed={50}
             repeat={Infinity}
             className="font-bold text-gray-400 text-xl md:text-3xl lg:text-5xl italic mb-4"
@@ -40,7 +54,8 @@ export const Hero = () => {
             transition={{ duration: 1, delay: 1 }}
             className="text-gray-300 max-w-[400px] md:max-w-[520px] md:text-xl text-lg mb-6"
           >
-            I am a passionate frontend developer and a UI designer with over one year experience.
+            I am a passionate software developer and UI designer, focused on building responsive
+            user interfaces, scalable backend systems, and practical automation solutions.
           </motion.p>
 
           <motion.div
@@ -64,7 +79,7 @@ export const Hero = () => {
               <motion.a
                 whileHover={{ scale: 1.2 }}
                 transition={{ duration: 0.25 }}
-                href="https://github.com/Smart-Star"
+                href={socialLinks.github}
                 target="_blank"
               >
                 <AiOutlineGithub />
@@ -73,7 +88,7 @@ export const Hero = () => {
               <motion.a
                 whileHover={{ scale: 1.2 }}
                 transition={{ duration: 0.25 }}
-                href="https://www.linkedin.com/in/foluso-ojutalayo/"
+                href={socialLinks.linkedin}
                 target="_blank"
               >
                 <AiOutlineLinkedin />
@@ -82,7 +97,7 @@ export const Hero = () => {
               <motion.a
                 whileHover={{ scale: 1.2 }}
                 transition={{ duration: 0.25 }}
-                href="https://www.behance.net/folusoojutalayo"
+                href={socialLinks.behance}
                 target="_blank"
               >
                 <AiOutlineBehanceSquare />

@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { AiOutlineBehanceSquare, AiOutlineGithub, AiOutlineLinkedin } from 'react-icons/ai';
+import { socialLinks } from '../constants';
 
 export const Footer = () => {
   return (
@@ -37,7 +38,7 @@ export const Footer = () => {
           <motion.a
             whileHover={{ scale: 1.2 }}
             transition={{ duration: 0.25 }}
-            href="https://github.com/Smart-Star"
+            href={socialLinks.github}
             target="_blank"
           >
             <AiOutlineGithub />
@@ -45,7 +46,7 @@ export const Footer = () => {
           <motion.a
             whileHover={{ scale: 1.2 }}
             transition={{ duration: 0.25 }}
-            href="https://www.linkedin.com/in/foluso-ojutalayo/"
+            href={socialLinks.linkedin}
             target="_blank"
           >
             <AiOutlineLinkedin />
@@ -53,7 +54,7 @@ export const Footer = () => {
           <motion.a
             whileHover={{ scale: 1.2 }}
             transition={{ duration: 0.25 }}
-            href="https://www.behance.net/folusoojutalayo"
+            href={socialLinks.behance}
             target="_blank"
           >
             <AiOutlineBehanceSquare />

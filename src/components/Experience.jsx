@@ -17,7 +17,7 @@ export const Experience = () => {
             key={item.id}
             className="border border-purple-900 bg-purple-900/20 rounded-lg shadow-md p-10 hover:shadow-xl transition-shadow duration-300"
           >
-            <h2 className="text-gray-100 text-2xl font-semibold mb-1">{item.company}</h2>
+            <h2 className="text-gray-100 text-2xl font-semibold mb-1">{item.title}</h2>
             <p className="text-gray-300">{item.period}</p>
             <p className="text-gray-400 mt-4">{item.description}</p>
           </motion.div>

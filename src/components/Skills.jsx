@@ -13,7 +13,7 @@ export const Skills = () => {
     >
       <h3 className="text-3xl font-bold text-center mb-8">Skills</h3>
       <p className="text-center mb-8">
-        I worked on various frontend projects. Check them{' '}
+        I have worked on various frontend and backend projects. Check them here{' '}
         <a
           target="_blank"
           href="https://github.com/Smart-Star?tab=repositories"

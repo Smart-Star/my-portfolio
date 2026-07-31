@@ -5,7 +5,7 @@ import { ShinyEffect } from './ShinyEffect';
 
 // viewport={{ once: true }}
 export const Portfolio = () => {
-  // console.log(projects.length);
+  console.log('project length', projects.length);
 
   return (
     <section id="portfolio" className="box-width paddingX paddingY relative">
